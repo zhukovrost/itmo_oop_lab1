@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="itmo_oop_lab1.Tests\**\*.cs" />
+    <None Remove="itmo_oop_lab1.Tests\**\*" />
+    <EmbeddedResource Remove="itmo_oop_lab1.Tests\**\*" />
+  </ItemGroup>
+
 </Project>
